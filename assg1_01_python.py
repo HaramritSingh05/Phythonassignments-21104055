@@ -1,0 +1,7 @@
+a=input(" Enter First Number: ")
+b=input(" Enter Second Number: ")
+c=input(" Enter Third Number: ")
+a=int(a)
+b=int(b)
+c=int(c)
+print("The average of three numbers a,b and c is :",(a+b+c)/3)

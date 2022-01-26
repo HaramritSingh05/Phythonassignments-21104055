@@ -1,0 +1,10 @@
+A='Hey,ABC Here!\nMy SID is 2110XXXX\nI am from XYZ department and my CGPA is 9.9'
+name=input('Enter your name here:\n')
+sid=int(input('Enter your SID here:\n'))
+deptt=input('Enter your respective deptt. here:\n')
+cgpa=int(input('Enter your cgpa here:\n'))
+A=A.replace('ABC',str(name))
+A=A.replace('2110XXXX',str(sid))
+A=A.replace('XYZ',str(deptt))
+A=A.replace('9.9',str(cgpa))
+print(A)
